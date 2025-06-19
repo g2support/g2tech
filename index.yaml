@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  g2-prometheus:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-06-19T14:57:39.527248251+05:30"
+    description: A Helm chart for custom Prometheus image
+    digest: 6e0946988511142b393d44c0600990082df38b743843b086b55e842a6b0b4455
+    name: g2-prometheus
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/g2support/g2tech/main/helm-charts/g2-prometheus-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-06-19T14:57:39.526376081+05:30"
