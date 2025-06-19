@@ -1,0 +1,6 @@
+apiVersion: v2
+name: g2-prometheus
+description: A Helm chart for custom Prometheus image
+type: application
+version: 0.1.0
+appVersion: "1.0"

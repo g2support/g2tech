@@ -1,0 +1,11 @@
+replicaCount: 1
+
+image:
+  repository: g2support/g2-prometheus
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: NodePort
+  port: 9090
+  nodePort: 30090
