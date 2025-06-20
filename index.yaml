@@ -1,9 +1,20 @@
 apiVersion: v1
 entries:
+  g2-grafana:
+  - apiVersion: v2
+    appVersion: 9.0.0
+    created: "2025-06-20T12:18:20.334565796+05:30"
+    description: A Helm chart to deploy custom Grafana
+    digest: 1c9e36ee982e5c637ab65d67027d043103860a258de0b5c0f58b7193f2ae301d
+    name: g2-grafana
+    type: application
+    urls:
+    - https://g2support.github.io/g2tech/g2-grafana-0.1.0.tgz
+    version: 0.1.0
   g2-prometheus:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-06-19T15:14:43.303465663+05:30"
+    created: "2025-06-20T12:18:20.335245148+05:30"
     description: A Helm chart for custom Prometheus image
     digest: 6e0946988511142b393d44c0600990082df38b743843b086b55e842a6b0b4455
     name: g2-prometheus
@@ -11,4 +22,4 @@ entries:
     urls:
     - https://g2support.github.io/g2tech/g2-prometheus-0.1.0.tgz
     version: 0.1.0
-generated: "2025-06-19T15:14:43.302662351+05:30"
+generated: "2025-06-20T12:18:20.334232614+05:30"
